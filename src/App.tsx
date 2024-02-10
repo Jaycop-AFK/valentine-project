@@ -8,8 +8,10 @@ const phrases = [
   "Really?",
   "Pookie pls?",
   "Don't do that!",
-  "Im gonna cry",
+  
   "U gonna break my heart!",
+  "Im gonna cry 😭😭",
+  
 ];
 function App() {
   const [noCount, setnoCount] = useState(0);
@@ -38,7 +40,9 @@ function App() {
             src="https://media.tenor.com/dIR5p38-V4EAAAAi/cry-maddrey-maddrey.gif"
             alt="bear"
           />
-          <div>will you be my valentine??</div>
+          <div>
+            <h1>will you be my valentine??</h1>
+          </div>
           <div>
             <button
               className="yesButton"
